@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #1d334a;
+  font-size: 1.33vw;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.logoWinc {
+  width: 15rem;
+  height: 5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+
+main {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+}
+
+.nav {
+  grid-column: 1;
+  grid-row: 1 / span 3;
+  background: #ffb212;
+}
+
+.dark-blue-background {
+  background-image: url("https://global-uploads.webflow.com/6172d766f6f768048c03fe2e/6172d766f6f76877970401cc_winc-dark-blue.png");
+  width: 300px;
+  margin-left: 35%;
+  border-radius: 20%;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.nav li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #031035;
+}
+
+.nav li a:hover {
+  color: wheat;
+}
+
+.home-link {
+  font-weight: 800;
+}
+
+.students-link {
+  font-weight: bold;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.students {
+  margin-left: 10px;
+}
+
+nav li {
+  margin: 0 0 20px 0;
+  list-style: none;
+  padding: 0;
+}
+
+.home,
+.students-link-li {
+  margin-bottom: 25px;
+}
+
+.home {
+  margin-top: 50px;
+}
+
+.assignments {
+  margin-top: 40px;
+}
+
+.description {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: center;
+}
+
+.bar-chart {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.line-chart {
+  margin-top: 75px;
+}
+
+#radio-buttons {
+  height: 57%;
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+.student-profile {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.student-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.banner-right {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.radiobuttons {
+  display: grid;
+  margin-top: 20px;
+}
+
+.expl {
+  font-size: 12px;
+}
+
+.filter-studentpage {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.student-description {
+  font-size: 8px;
+}
